@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact | My Sweet Beans</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/rdu3grp.css">
+<link rel="stylesheet" href="https://use.typekit.net/rdu3grp.css">
+<link rel="stylesheet" href="https://use.typekit.net/rdu3grp.css">
+<style type="text/css">
+
+hi {
+	font-family: Novecentosanswide;
+	color: #000000;
+	font-size: 24pt;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+body {
+    background-image: url("../images/contact_background.png");
+    background-size: cover;
+    text-align: center;
+    height: 800px;
+    min-width: 0px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+	ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #A67B5B;
+    width: 100%;
+    margin-left: -10px;
+}
+
+li {
+  float: left;
+}
+.width-div {
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    width: 600px;
+    border-radius: 10px;
+    border: 2px solid #A67B5B;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+	
+	form{
+		margin: auto;
+	}
+aside {
+    margin-top: 110px;
+    background-color: #E1CDB4;
+    width: 650px;
+    height: 400px;
+    padding-top: 18px;
+    border: 5px solid #E1CDB4;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.75;
+}
+footer {
+    margin-top: 250px;
+    background-color: #A67C52;
+}
+	
+ 
+
+</style>
+</head>
+
+<body>
+	<ul>
+  <li><a href="home.html"><img src="../planning/My_Sweet_Beans_Logo.png" width="50" height="36" alt=""/></a></li>
+  <li class="dropdown">
+    <a href="episodes.html" class="dropbtn headerCenter">Episodes</a>
+    <div class="dropdown-content">
+      <a href="current_events.html">Current Events</a>
+      <a href="pop_culture.html">Pop Culture</a>
+      <a href="life_lessons.html">Life Lessons</a>
+    </div>
+  </li>
+  <li><a href="about.html" class="headerCenter">About</a></li>
+  <li><a href="newsletter.html" class="headerCenter">Newsletter</a></li>
+  <li><a href="contact.html" class="headerCenter">Contact</a></li>
+  <li><a href="reviews.html" class="headerCenter">Reviews</a></li>
+</ul>
+	<aside> 
+	  <h1>Contact Me
+      </h1>
+	  <form>
+    <p>Your Name: <input name="user_name" type="text" id="user_name" value="First and Last Name Please" size="50"></p>
+	    <p>Your Email: <input name="user_email" type="email" id="user_email" size="50"></p>
+    <p>Leave a message: <br>
+		    <textarea name="user_comment" cols="65" rows="10" id="user_comment"></textarea></p>
+	  <input type="submit" class="submit_btn" formaction="comment-box copy.php" formmethod="POST" value="Submit">
+	</form>
+		</aside>
+	<footer>
+	<li class="footerLI">Facebook: @my_sweetbeans</li>
+	<li class="footerLI">Twitter: @sweetbeanspodcast</li>
+	<li class="footerLI">Instagram: @mysweetbeans</li>
+</footer>
+</body>
+</html>
